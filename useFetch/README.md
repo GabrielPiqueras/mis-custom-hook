@@ -19,6 +19,6 @@ Ejemplo:
 | Contenido 3-1 | Contenido 3-2 | Contenido 3-3 |
 
 | Primer encabezado | Segundo encabezado | Segundo encabezado |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | Contenido de la celda  | Contenido de la celda  | Contenido de la celda  |
 | Contenido de la celda  | Contenido de la celda  | Contenido de la celda  |
