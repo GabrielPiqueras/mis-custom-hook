@@ -4,7 +4,7 @@ export const useFetch = (url) => {
 
     const isMounted = useRef(true);
     const [state, setState] = useState({data: null, loading: true, error: null});
-
+    
     useEffect(() => {
         // No hace nada cuando está montado
 
@@ -30,7 +30,7 @@ export const useFetch = (url) => {
                                         error: null
                                     });
                                 } else {
-                                    console.log('No se alcanzó a llamar a setState, no hay error :)')
+                                    console.log('No se alcanzó a llamar a setState, porque el componente fue desmontado :)')
                                 }
                             });
     }, [url]);
