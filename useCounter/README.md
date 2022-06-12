@@ -2,7 +2,7 @@
 
 Ejemplo de uso:
 
-```
+```js
     const { counter, increment, decrement, reset } = useCunter(0);
 ```
 
